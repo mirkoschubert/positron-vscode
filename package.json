@@ -1,0 +1,22 @@
+{
+    "name": "positron-vscode",
+    "displayName": "Positron",
+    "description": "A clean and colorful theme for Visual Studio Code.",
+    "version": "0.0.1",
+    "publisher": "mirkoschubert",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Positron",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Positron-color-theme.json"
+            }
+        ]
+    }
+}
