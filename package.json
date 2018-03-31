@@ -1,22 +1,47 @@
 {
-    "name": "positron-vscode",
-    "displayName": "Positron",
-    "description": "A clean and colorful theme for Visual Studio Code.",
-    "version": "0.0.1",
-    "publisher": "mirkoschubert",
-    "engines": {
-        "vscode": "^1.21.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Positron",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Positron-color-theme.json"
-            }
-        ]
-    }
+  "name": "positron-vscode",
+  "displayName": "Positron",
+  "description": "A clean and colorful theme for Visual Studio Code",
+  "version": "0.1.0",
+  "author": "Mirko Schubert <mirkoschubert@gmail.com>",
+  "publisher": "mirkoschubert",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.20.0"
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#2a2c2d",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirkoschubert/positron-vscode.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Positron",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Positron.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "",
+    "publisherDisplayName": "Mirko Schubert",
+    "publisherId": ""
+  },
+  "devDependencies": {
+    "eslint-config-healthsparq": "^4.0.0",
+    "ibm-design-colors": "^2.0.4",
+    "js-yaml": "^3.11.0",
+    "prettier": "^1.11.1"
+  }
 }

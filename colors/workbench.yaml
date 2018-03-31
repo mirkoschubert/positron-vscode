@@ -1,0 +1,317 @@
+colors:
+
+  focusBorder: aqua._20
+  foreground: cool-gray._10
+  widget.shadow: '#00000066'
+  selection.background: gray._60
+  descriptionForeground: gray._20
+  errorForeground: red.core
+
+  # Text Colors
+  textBlockQuote.background: helpers.todo
+  textBlockQuote.border: helpers.todo
+  textCodeBlock.background: custom.background
+  textLink.activeForeground: aqua._20
+  textLink.foreground: cerulean._50
+  textPreformat.foreground: cool-gray._10
+  textSeparator.foreground: helpers.todo
+
+  # Button Control
+  button.background: cerulean._80
+  button.foreground: cool-gray._10
+  button.hoverBackground: cerulean._50
+
+  # Dropdown Control
+  dropdown.background: custom.background
+  dropdown.listBackground: custom.background
+  dropdown.border: aqua._20
+  dropdown.foreground: aqua._20
+
+  # Input Control
+  input.background: custom.background
+  input.border: cerulean._80
+  input.foreground: aqua._20
+  input.placeholderForeground: cerulean._80
+  inputOption.activeBorder: aqua._20
+  inputValidation.errorBackground: red._30
+  inputValidation.errorBorder: cool-gray._10
+  inputValidation.infoBackground: lime.core
+  inputValidation.infoBorder: cool-gray._10
+  inputValidation.warningBackground: gold._10
+  inputValidation.warningBorder: cool-gray._10
+
+  # Scroll Bar Control
+  scrollbar.shadow: '#00000066'
+  scrollbarSlider.activeBackground: aqua._20
+  scrollbarSlider.background: cerulean._80
+  scrollbarSlider.hoverBackground: aqua._20
+
+  # Badge
+  badge.background: aqua._20
+  badge.foreground: custom.background
+
+  # Progress Bar
+  progressBar.background: aqua._20
+
+  # List & Trees
+  list.activeSelectionBackground: cerulean._80
+  list.activeSelectionForeground: gold.core
+  list.dropBackground: cerulean._80
+  list.focusBackground: cerulean._80
+  list.focusForeground: aqua._20
+  list.highlightForeground: helpers.todo
+  list.hoverBackground: cerulean._80
+  list.hoverForeground: aqua._20
+  list.inactiveFocusBackground: cerulean._80
+  list.inactiveFocusForeground: aqua._20
+  list.inactiveSelectionBackground: cerulean._80
+  list.inactiveSelectionForeground: aqua._20
+  list.invalidItemForeground: red.core
+
+  # Activity Bar
+  activityBar.background: cerulean._80
+  activityBar.dropBackground: aqua._20
+  activityBar.border: custom.background
+  activityBar.foreground: cerulean._50
+  activityBarBadge.background: aqua._20
+  activityBarBadge.foreground: custom.background
+
+  # Side Bar
+  sideBar.background: cerulean._90
+  sideBar.border: custom.background
+  sideBar.dropBackground: cerulean._80
+  sideBar.foreground: cool-gray._10
+  sideBarSectionHeader.background: cerulean._80
+  sideBarSectionHeader.foreground: aqua._20
+  sideBarTitle.foreground: aqua._20
+
+  # Editor Groups & Tabs
+  editorGroup.background: custom.background
+  editorGroup.border: cerulean._80
+  editorGroup.dropBackground: cerulean._80
+  editorGroupHeader.noTabsBackground: custom.background
+  editorGroupHeader.tabsBackground: custom.background
+  editorGroupHeader.tabsBorder: cerulean._80
+  tab.activeBackground: cerulean._80
+  tab.activeBorder: aqua._20
+  tab.activeForeground: aqua._20
+  tab.border: cerulean._80
+  tab.hoverBackground: cerulean._80
+  tab.hoverBorder: aqua._20
+  tab.inactiveBackground: custom.background
+  tab.inactiveForeground: aqua._20
+  tab.unfocusedActiveBorder: aqua._40
+  tab.unfocusedActiveForeground: aqua._40
+  tab.unfocusedHoverBackground: cerulean._80
+  tab.unfocusedHoverBorder: aqua._40
+  tab.unfocusedInactiveForeground: cerulean._80
+
+  # Editor Colors
+  editor.background: custom.background
+  editor.foreground: cool-gray._10 
+  editorLineNumber.foreground: aqua._40
+  editorCursor.background: cool-gray._10
+  editorCursor.foreground: magenta.core
+
+  editor.selectionBackground: cerulean._50
+  editor.selectionForeground: cool-gray._10
+  editor.inactiveSelectionBackground: cerulean._80
+  editor.selectionHighlightBackground: cerulean._80
+  editor.selectionHighlightBorder: cerulean._80
+
+  editor.wordHighlightBackground: cerulean._80
+  editor.wordHighlightBorder: cerulean._80
+  editor.wordHighlightStrongBackground: cerulean._80
+  editor.wordHighlightStrongBorder: cerulean._80
+
+  editor.findMatchBackground: cerulean._50
+  editor.findMatchBorder: cerulean._50
+  editor.findMatchHighlightBackground: cerulean._80
+  editor.findMatchHighlightBorder: cerulean._80
+  editor.findRangeHighlightBackground: cerulean._80
+  editor.findRangeHighlightBorder: cerulean._80
+
+  editor.hoverHighlightBackground: cerulean._80
+  editor.lineHighlightBackground: cerulean._80
+  editor.lineHighlightBorder: cerulean._80
+
+  editorLink.activeForeground: red.core
+
+  editor.rangeHighlightBackground: cerulean._80
+  editor.rangeHighlightBorder: cerulean._80
+
+  editorWhitespace.foreground: cerulean._80
+  editorIndentGuide.background: cerulean._80
+  editorRuler.foreground: gold.core
+
+  editorCodeLens.foreground: helpers.todo
+  editorBracketMatch.background: cerulean._80
+  editorBracketMatch.border: aqua._20
+
+  editorOverviewRuler.border: cerulean._80
+  editorOverviewRuler.findMatchForeground: gold._10
+  editorOverviewRuler.rangeHighlightForeground: gold._10
+  editorOverviewRuler.selectionHighlightForeground: gold._10
+  editorOverviewRuler.wordHighlightForeground: gold._10
+  editorOverviewRuler.wordHighlightStrongForeground: gold.core
+
+  editorOverviewRuler.modifiedForeground: gold._10
+  editorOverviewRuler.addedForeground: gold.core
+  editorOverviewRuler.deletedForeground: gold._60
+  editorOverviewRuler.errorForeground: red.core
+  editorOverviewRuler.warningForeground: gold.core
+  editorOverviewRuler.infoForeground: green.core
+
+  editorError.foreground: red._30
+  editorError.border: custom.background
+  editorWarning.foreground: gold._10
+  editorWarning.border: custom.background
+  editorInfo.foreground: lime.core
+  editorInfo.border: custom.background
+
+  editorGutter.background: custom.background
+  editorGutter.modifiedBackground: gold._10
+  editorGutter.addedBackground: gold.core
+  editorGutter.deletedBackground: gold._60
+
+  # Diff Editor Colors
+  diffEditor.insertedTextBackground: helpers.todo
+  diffEditor.insertedTextBorder: helpers.todo
+  diffEditor.removedTextBackground: helpers.todo
+  diffEditor.removedTextBorder: helpers.todo
+
+  # Editor Widget Colors
+  editorWidget.background: custom.background
+  editorWidget.border: cerulean._80
+  editorSuggestWidget.background: cerulean._80
+  editorSuggestWidget.border: cerulean._80
+  editorSuggestWidget.foreground: aqua._20
+  editorSuggestWidget.highlightForeground: cool-gray._10
+  editorSuggestWidget.selectedBackground: cerulean._80
+  editorHoverWidget.background: cerulean._80
+  editorHoverWidget.border: cerulean._80
+  debugExceptionWidget.background: cerulean._80
+  debugExceptionWidget.border: cerulean._80
+
+  editorMarkerNavigation.background: cerulean._80
+  editorMarkerNavigationError.background: red._30
+  editorMarkerNavigationWarning.background: gold._10
+  editorMarkerNavigationInfo.background: lime.core
+
+  # Peek View Controls
+  peekView.border: cerulean._80
+  peekViewEditor.background: custom.background
+  peekViewEditorGutter.background: custom.background
+  peekViewEditor.matchHighlightBackground: custom.background
+  peekViewResult.background: custom.background
+  peekViewResult.fileForeground: helpers.todo
+  peekViewResult.lineForeground: helpers.todo
+  peekViewResult.matchHighlightBackground: cerulean._60
+  peekViewResult.selectionBackground: cerulean._80
+  peekViewResult.selectionForeground: aqua._20
+  peekViewTitle.background: cerulean._80
+  peekViewTitleDescription.foreground: cool-gray._10
+  peekViewTitleLabel.foreground: aqua._20
+
+  # Merge Conflicts
+  merge.currentHeaderBackground: helpers.todo
+  merge.currentContentBackground: helpers.todo
+  merge.incomingHeaderBackground: helpers.todo
+  merge.incomingContentBackground: helpers.todo
+  merge.border: helpers.todo
+  merge.commonHeaderBackground: helpers.todo
+  merge.commonContentBackground: helpers.todo
+  editorOverviewRuler.currentContentForeground: helpers.todo
+  editorOverviewRuler.incomingContentForeground: helpers.todo
+  editorOverviewRuler.commonContentForeground: helpers.todo
+
+  # Panel Colors
+  panel.background: custom.background
+  panel.border: cerulean._80
+  panel.dropBackground: cerulean._80
+  panelTitle.activeBorder: cerulean._80
+  panelTitle.activeForeground: cool-gray._10
+  panelTitle.inactiveForeground: aqua._20
+
+  # Status Bar Colors
+  statusBar.background: cerulean._60
+  statusBar.border: cerulean._80
+  statusBar.debuggingBackground: helpers.todo
+  statusBar.debuggingBorder: helpers.todo
+  statusBar.debuggingForeground: helpers.todo
+  statusBar.foreground: aqua._20
+  statusBar.noFolderBackground: helpers.todo
+  statusBar.noFolderBorder: helpers.todo
+  statusBar.noFolderForeground: helpers.todo
+  statusBarItem.activeBackground: aqua._40
+  statusBarItem.hoverBackground: cerulean._50
+  statusBarItem.prominentBackground: helpers.todo
+  statusBarItem.prominentHoverBackground: helpers.todo
+
+  # Title Bar Colors (macOS)
+  titleBar.activeBackground: custom.background
+  titleBar.activeForeground: aqua._20
+  titleBar.border: cerulean._80
+  titleBar.inactiveBackground: custom.background
+  titleBar.inactiveForeground: aqua._50
+
+  # Notification Colors
+  notificationCenter.border: cerulean._80
+  notificationCenterHeader.background: cerulean._80
+  notificationCenterHeader.foreground: aqua._20
+  notificationLink.foreground: helpers.todo
+  notifications.background: cerulean._80
+  notifications.border: helpers.todo
+  notifications.foreground: cool-gray._10
+  notificationToast.border: cerulean._80
+
+  # Extensions
+  extensionButton.prominentBackground: cerulean._80
+  extensionButton.prominentForeground: aqua._20
+  extensionButton.prominentHoverBackground: cerulean._60
+
+  # Quick Picker
+  pickerGroup.border: helpers.todo
+  pickerGroup.foreground: helpers.todo
+
+  # Integrated Terminal Colors
+  terminal.background: custom.background
+  terminal.foreground: cool-gray._10
+  terminal.selectionBackground: gray._60
+  terminal.ansiBlack: black.core
+  terminal.ansiBrightBlack: gray._60
+  terminal.ansiRed: red.core
+  terminal.ansiBrightRed: red._30
+  terminal.ansiGreen: green.core
+  terminal.ansiBrightGreen: lime.core
+  terminal.ansiYellow: gold.core
+  terminal.ansiBrightYellow: gold._10
+  terminal.ansiBlue: blue.core
+  terminal.ansiBrightBlue: aqua._20
+  terminal.ansiMagenta: magenta.core
+  terminal.ansiBrightMagenta: magenta._30
+  terminal.ansiCyan: teal.core
+  terminal.ansiBrightCyan: teal._20
+  terminal.ansiWhite: gray._20
+  terminal.ansiBrightWhite: cool-gray._10
+  terminalCursor.background: cool-gray._10
+  terminalCursor.foreground: magenta.core
+
+  # Debug
+  debugToolBar.background: helpers.todo
+  debugToolBar.border: helpers.todo
+
+  # Welcome Page
+  welcomePage.buttonBackground: cerulean._90
+  welcomePage.buttonHoverBackground: cerulean._80
+  walkThrough.embeddedEditorBackground: custom.background
+
+  # Git Colors
+  gitDecoration.modifiedResourceForeground: helpers.todo
+  gitDecoration.deletedResourceForeground: helpers.todo
+  gitDecoration.untrackedResourceForeground: helpers.todo
+  gitDecoration.ignoredResourceForeground: helpers.todo
+  gitDecoration.conflictingResourceForeground: helpers.todo
+  gitDecoration.submoduleResourceForeground: helpers.todo
+
+

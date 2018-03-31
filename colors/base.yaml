@@ -1,0 +1,159 @@
+$schema: vscode://schemas/color-theme
+author: Mirko Schubert
+name: Positron
+type: dark
+colorSpaceName: sRGB
+semanticClass: theme.dark.positron
+tokenColors:
+
+  # Generic <comment> matches
+  - scope: comment
+    settings:
+      foreground: cool-gray.core
+      fontStyle: italic
+
+  # Generic <keyword> matches
+  - scope: keyword
+    settings:
+      foreground: green.core
+
+  # 1. Language features like: import, return, if, else
+  # 2. `new` keyword
+  - scope: keyword.control, keyword.operator.new
+    settings:
+      foreground: blue.core
+
+  # Make operators light gray by default
+  - scope: keyword.operator
+    settings:
+      foreground: cool-gray._10
+
+      # Make logical operators light orange, eg ||, ===
+  - scope: keyword.operator.logical, keyword.operator.comparison
+    settings:
+      foreground: aqua._20
+
+  # Generic <storage> matches
+  - scope: storage
+    settings:
+      foreground: green.core
+
+  # Generic <constant> matches
+  - scope: constant
+    settings:
+      foreground: gold.core
+
+  # Makes true/false booleans, null, undefined blue
+  # - scope: constant.language
+  #   settings:
+  #     fontStyle: italic
+  # Regex, string escape `\`
+  - scope: constant.character.escape
+    settings:
+      foreground: cool-gray._10
+
+  # Generic <variable> matches
+  - scope: variable
+    settings:
+      foreground: cool-gray._10
+
+  # Function parameters
+  - scope: variable.parameter
+    settings:
+      foreground: cool-gray._70
+      # fontStyle: italic
+
+  # Destructuring assignment variables
+  - scope: meta.object-binding-pattern-variable.js variable
+    settings:
+      foreground: gold._40
+  # Special treatment for CONSTANT variables and this, variable interpolation matches?
+  - scope: variable.other.constant, variable.language.this, variable.interpolation
+    settings:
+      foreground: cool-gray._10
+
+  # Matches when an object is accessed.
+  - scope: variable.other.object
+    settings:
+        foreground: green.core
+  # The accessed property match
+  - scope: variable.other.property
+    settings:
+      foreground: cool-gray._10
+
+  # Invalid
+  - scope: invalid.illegal
+    settings:
+      border-bottom: 1px dashed rgba(255, 44, 109, 0.5)
+
+  - scope: invalid.deprecated
+    settings:
+      background-foreground: rgba(255, 44, 109, 0.62)
+
+  # Generic string match
+  - scope: string
+    settings:
+      foreground: cool-gray._10
+
+  # Template string ${}
+  - scope: punctuation.definition.template-expression
+    settings:
+      foreground: gold._40
+
+  # Generic support match
+  - scope: support
+    settings:
+      foreground: green.core
+  # Matches a Class reference when referenced later
+  - scope: support.class
+    settings:
+      foreground: green.core
+  # Matches: MODULE, MODULE.EXPORTS
+  - scope: support.type.object.module.js
+    settings:
+      foreground: magenta.core
+  # Matches: console.<LOG>
+  - scope: support.function
+    settings:
+      foreground: lime.core
+
+  # Function names
+  - scope: entity.name.function
+    settings:
+      foreground: lime.core
+
+  # Class extensions: eg extends `Component`
+  - scope: entity.other.inherited-class
+    settings:
+      foreground: magenta._30
+
+  # YAML keys
+  - scope: entity.name.tag.yaml
+    settings:
+      foreground: green.core
+
+  # JS Class/Method decorators -> @ punctuation is orange
+  - scope: meta.decorator punctuation.decorator
+    settings:
+      foreground: gold.core
+  # JS Class/Method decorators -> blue function name
+  - scope: meta.decorator variable
+    settings:
+      foreground: aqua._20
+
+  # Docker file `FROM`
+  - scope: keyword.other.special-method
+    settings:
+      foreground: blue.core
+
+  # Expressions like @import
+  - scope: keyword.control.at-rule
+    settings:
+      foreground: green.core
+  # Style !important declarations
+  - scope: keyword.other.important
+    settings:
+      foreground: red._30
+  - scope: variable.interpolation
+    settings:
+      foreground: green.core
